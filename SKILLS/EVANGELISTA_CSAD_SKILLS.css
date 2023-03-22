@@ -1,0 +1,89 @@
+body{
+	background-color:beige;
+}
+
+div.header h1 {
+	font:small-caps bold 2.5em/1.25em Georgia,serif;
+	text-align:center;
+	color:saddlebrown;
+	text-shadow:7px 1px 3px lightgray;
+}
+
+div.header h3 {
+	font:italic 1.25em/.20em Tahoma, Sans-Serif;
+	text-align:center;
+	color:saddlebrown;
+}
+
+.icons-box {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	margin-left: 160px;
+	margin-right: 160px;
+}
+
+.icon {
+	box-sizing: content-box;
+	height: 210px;
+	width: 230px;
+	display: inline-block;
+	padding: 15px;
+	margin: 30px;
+	position: relative;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	opacity: .7;
+	border-style: double;
+	border-color: black;
+	border-width: 8px;
+	padding: 10px;
+}
+
+img:hover {
+	opacity: 1;
+	border-color: sienna;
+}
+
+.goto h4 {
+	font-family: Tahoma, Sans-Serif;
+}
+		
+.goto a:link {
+	color: #5C4033;
+	text-decoration: none;
+}
+		
+.goto a:visited {
+	color: #8B3A3A;
+}
+		
+.goto a:hover {
+	color: beige;
+	background-color: black;
+	padding: .4em .4em;
+}
+
+div.body h2{
+	border-top: 5px solid #BC8F8F;
+	font-family:Georgia,serif;
+	background-color:navajowhite;
+	padding: 0 6px;
+	color:sienna;
+	text-shadow:1px 0.5px 1px brown;
+	text-align:center;
+	border-bottom: 5px solid #BC8F8F;
+	height: 80px;
+}
+
+div.body p,blockquote{
+  font-family:Verdana, 'Trebuchet MS',sans-serif;
+  text-indent:80px;
+  text-align:justify;
+  line-height:1.5em;
+  word-spacing:3px;
+  color: saddlebrown;
+}
