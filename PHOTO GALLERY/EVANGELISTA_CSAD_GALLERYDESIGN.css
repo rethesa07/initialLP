@@ -1,0 +1,154 @@
+body {
+	background-color:beige;
+	margin: 0;
+	border-left: 40px solid #BC8F8F;
+	border-right: 40px solid #BC8F8F;
+}
+
+div.header h1 {
+	font:small-caps bold 2.5em/1.25em Georgia,serif;
+	text-align:center;
+	color: #6F4242;
+	text-shadow:7px 1px 3px lightgray;
+}
+
+ul.album {
+	list-style-type: none;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #BC8F8F;
+	width: 9.8in;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Verdana, 'Trebuchet MS',sans-serif;
+}
+
+li a:link, a:visited {
+	color: beige;
+	text-decoration: none;
+}
+
+li a:hover { 
+	color: beige;
+	background: #6F4242;
+	border-bottom: 3px solid #6F4242;
+}
+
+.introbox {
+	border-left: 3px dotted #BC8F8F;
+	border-right: 3px dotted #BC8F8F;
+	margin: 0;
+	margin: auto;
+	width: 9.5in;
+}
+
+div.intro p, blockquote {
+	text-align:justify;
+	text-indent: 60px;
+	color: #6F4242;
+	font-size: 18px;
+	font-family: Verdana, 'Trebuchet MS',sans-serif;
+	line-height: 23px;
+}
+
+div.subheader h2{
+	text-align:center;
+}
+
+.mepics {
+	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 9.3in;
+	height: 8.7in;
+}
+
+.pics-portrait img {
+	padding: 8px;
+	width: 190px; 
+	height: 270px;
+	margin: 8px;
+	opacity: 1;
+	background:#BC8F8F;
+}
+
+.pics-landscape img {
+	padding: 8px;
+	width: 270px; 
+	height: 190px;
+	margin: 8px;
+	opacity: 1;
+	background:#BC8F8F;
+}
+
+.pics-hover img:hover {
+	opacity: .7;
+}
+
+.goto h4 {
+	font-family: Tahoma, Sans-Serif;
+	margin-left: 30px;
+}
+		
+.goto a:link, .goto a:visited {
+	color: #6F4242;
+	text-decoration: underline;
+}
+		
+.goto a:hover {
+	color: beige;
+	background-color: #6F4242;
+	padding: .4em .4em;
+	text-decoration: none;
+}
+
+.fampics, .frenpics {
+	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 9.3in;
+	height: 7.8in;
+}
+
+.cmpics {
+	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 9.3in;
+	height: 10.2in;
+}
+
+.wmpics {
+	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 9.3in;
+	height: 5.5in;
+}
