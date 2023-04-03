@@ -1,0 +1,82 @@
+body {
+	background-color:beige;
+	margin:0;
+}
+
+ul.navigation {
+	list-style-type: none;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #BC8F8F;
+	width: auto;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Verdana, 'Trebuchet MS',sans-serif;
+}
+
+li a:link, a:visited {
+	color: beige;
+	text-decoration: none;
+}
+
+li a:hover { 
+	color: beige;
+	background: #6F4242;
+	border-bottom: 3px solid #6F4242;
+}
+
+.container {	
+	margin: 0;
+	margin: auto;
+	margin-top: 50px;
+	height: 440px;
+	width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.image {
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 250px;
+	width: auto;
+}
+
+.image img {
+	height: 250px;
+	width: 380px;
+	border-radius: 30px;
+}
+
+.text {
+	height: 85px;
+	width: 500px;
+	margin: 0 auto;
+	justify-content: center;
+	border-left: 3px dotted #BC8F8F;
+	border-right: 3px dotted #BC8F8F;
+}
+
+.text p {
+	font-family: Verdana, 'Trebuchet MS',sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+	color:#6F4242
+}
